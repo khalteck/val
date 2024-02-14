@@ -13,7 +13,7 @@ const Fifth = ({ setPage }) => {
       <div className="w-full h-full bg-black/70 absolute top-0 left-0 px-5 flex flex-col justify-center items-center">
         <h1 className="text-[2rem] font-bold text-center">Cringeeeee but...</h1>
 
-        <p className="text-[1rem] text-center">
+        <p className="text-[1rem] text-center md:w-[400px]">
           Mirabel, you are a nice, smart, hardworking woman.. and I'm taking a
           moment to express my profound gratitude for you. Thank you for being
           the one who understands me (like 60% tho), laughs with me, and

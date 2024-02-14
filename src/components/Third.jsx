@@ -27,7 +27,7 @@ const Third = ({ setPage }) => {
           </p>
           <input
             type="text"
-            className="w-full h-10 bg-transparent border-2 p-2 border-white rounded-md outline-none"
+            className="w-full md:w-[400px] h-10 bg-transparent border-2 p-2 border-white rounded-md outline-none"
             onChange={(e) => {
               seterror(false);
               setAnswer(e?.target?.value);
@@ -42,7 +42,8 @@ const Third = ({ setPage }) => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              answer?.toLowerCase()?.includes("nicki")
+              answer?.toLowerCase()?.includes("nicki") ||
+              answer?.toLowerCase()?.includes("minaj")
                 ? setPage("fourth")
                 : seterror(true);
             }}
