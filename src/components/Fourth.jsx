@@ -3,7 +3,7 @@ import { getTimeOfDay } from "../utils/getTimeOfDay";
 const Fourth = ({ setPage }) => {
   return (
     <div
-      className="w-full h-[100dvh] bg-red-500 text-white  relative"
+      className="w-full h-[100dvh] bg-black text-white  relative"
       style={{
         backgroundImage: `url('/images/fourth.gif')`,
         backgroundSize: "cover",

@@ -3,7 +3,7 @@ import { getTimeOfDay } from "../utils/getTimeOfDay";
 const Second = ({ setPage }) => {
   return (
     <div
-      className="w-full h-[100dvh] px-5 bg-red-500 text-white flex flex-col justify-center items-center relative"
+      className="w-full h-[100dvh] px-5 bg-black text-white flex flex-col justify-center items-center relative"
       style={{
         backgroundImage: `url('/images/second.gif')`,
         backgroundSize: "cover",

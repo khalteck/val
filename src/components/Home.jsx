@@ -5,7 +5,7 @@ const Home = ({ setPage }) => {
 
   return (
     <div
-      className="w-full h-[100dvh] bg-red-500 text-white flex flex-col justify-center items-center relative"
+      className="w-full h-[100dvh] bg-black text-white flex flex-col justify-center items-center relative"
       style={{
         backgroundImage: `url('/images/home.gif')`,
         backgroundSize: "cover",
